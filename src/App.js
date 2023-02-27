@@ -1,7 +1,7 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Roadmap from "./components/Roadmap";
-import Skills from "./components/Skills";
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Roadmap from "./components/Roadmap/Roadmap";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (

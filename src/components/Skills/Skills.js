@@ -12,6 +12,7 @@ const Skills = () => {
   return (
     <>
     <div>
+  
     Skills
     </div>
     <div className="containers">

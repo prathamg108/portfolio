@@ -5,13 +5,14 @@
     font-family:cursive;
 }
 .text{
+    margin-left: 1rem;
     width: 50%;
 }
 .image{
     margin-left: 80px;
 }
 .img{
-    height: 30rem;
+    height: 20rem;
     border-radius: 50%;
 }
 .container{
