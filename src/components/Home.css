@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(212, 222, 222);
+    font-family:cursive;
+}
+.text{
+    width: 50%;
+}
+.image{
+    margin-left: 80px;
+}
+.img{
+    height: 30rem;
+    border-radius: 50%;
+}
+.container{
+    display: inline-flex;
+    /* flex-direction: column; */
+}
+
+

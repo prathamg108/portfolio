@@ -1,0 +1,38 @@
+* {
+  margin: 0cm;
+  padding: 0cm;
+}
+body{
+  background-color: rgb(30, 27, 27);
+}
+
+.divide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  padding: 5px 30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-active {
+  font-size: 40px;
+}
+
+.list2 {
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+.list2 li a {
+  padding-bottom: 0px;
+  color: aliceblue;
+}
+
+.list2 li:hover {
+  transform: translateY(-10px);
+  font-size: 20px;
+}
+

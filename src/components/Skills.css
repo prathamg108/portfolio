@@ -1,0 +1,22 @@
+.containers{
+    /* margin-top: 5rem; */
+    /* display: inline-flex; */
+    flex-wrap: wrap;
+}
+
+.line {
+    width: 80%;
+    border:1px solid wheat;
+    height: 13px;
+    margin: 10px;
+    border-radius: 10px;
+    /* background-color: blue; */
+}
+.line_color {
+    width: 80%;
+    border:1px solid wheat;
+    height: 13px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
