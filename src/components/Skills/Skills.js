@@ -1,32 +1,26 @@
-import React from 'react'
-import './Skills.css'
-import { Line } from 'rc-progress';
-// import reactphoto from'../photos/react.gif';
-// import c from'../photos/c++.png';
-// import css from'../photos/css.jpg'
-// import html from'../photos/Html5.jpg'
-// import js from'../photos/js.jpg'
-// import node from'../photos/node.png'
-
+import React from "react";
+import "./Skills.css";
+import { Line } from "rc-progress";
+import { skills } from "./language";
 const Skills = () => {
   return (
     <>
-    <div>
-  
-    Skills
-    </div>
-    <div className="containers">
-        <div className="sname">
-            C/C++
+      <div style={{}}>Skills</div>
+      {skills.map((skill) => (
+        <div className="containers" key={skill.Lname}>
+          <div className="sname">
+            {skill.Lname}
             <Line
-            percent={70}
-            strokewidth="2"
-            strokecolor="rgb(212, 222, 222)"
+              className="sline"
+              percent={skill.level}
+              strokeWidth="1"
+              strokecolor="rgb(212, 222, 222)"
             />
+          </div>
         </div>
-    </div>
+      ))}
     </>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
