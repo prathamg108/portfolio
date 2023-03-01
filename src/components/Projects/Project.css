@@ -1,8 +1,6 @@
 .card{
     border: 1px solid wheat;
-    width: 200px;
-    margin-left: 5rem; 
-    margin: 20px;
+    margin: 2.5rem; 
     display: flex;
     flex-direction: column;
 }
@@ -13,6 +11,7 @@
     position: relative;
     left: 70%;
     display: inline-block;
+    margin-right: 6rem;
 }
 .card-title{
     height: 2rem;
