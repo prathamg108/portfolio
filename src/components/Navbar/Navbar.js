@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-          <ul className="list">
-            <div className="divide">
+          <ul className="list-nav">
+            <div className="di1">
               <div className="list1">
                 <li className="list-active"><a href="/">PG</a></li>
               </div>

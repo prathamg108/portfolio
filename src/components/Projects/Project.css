@@ -1,0 +1,20 @@
+.card{
+    border: 1px solid wheat;
+    width: 200px;
+    margin-left: 5rem; 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card-main{
+    display: flex;
+}
+.card_main:nth-child(2n){
+    position: relative;
+    left: 70%;
+    display: inline-block;
+}
+.card-title{
+    height: 2rem;
+    border-radius: 50%;
+}

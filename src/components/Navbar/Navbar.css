@@ -6,12 +6,12 @@ body{
   background-color: rgb(30, 27, 27);
 }
 
-.divide {
+.di1 {
   display: flex;
   justify-content: space-between;
 }
 
-.list li {
+.list-nav li {
   padding: 5px 30px;
   text-decoration: none;
   list-style: none;

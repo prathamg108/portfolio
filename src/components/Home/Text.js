@@ -18,7 +18,7 @@ export const Text = () => {
 export const Name = () => {
   return (
     <>
-      <div>hiiiiiiiiiii</div>
+      <div></div>
     </>
   );
 };
