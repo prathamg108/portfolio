@@ -5,7 +5,10 @@
 body{
   background-color: rgb(30, 27, 27);
 }
-
+.image_pratham{
+  height: 100px;
+  border-radius: 50%;
+}
 .di1_pratham {
   display: flex;
   justify-content: space-between;
@@ -28,11 +31,15 @@ body{
 
 .list2_pratham li a {
   padding-bottom: 0px;
-  color: aliceblue;
+  color: #b1cee8;
+  text-decoration: none;
+  transition: 0.15s ease;
+  font-size: 20px;
 }
 
-.list2_pratham li:hover {
+.list2_pratham li a:hover {
+  color: #b9d0e4;
   transform: translateY(-10px);
-  font-size: 20px;
+  font-size: 25px;
 }
 

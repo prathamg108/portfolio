@@ -4,7 +4,7 @@ import Roadmap from "./components/Roadmap/Roadmap";
 import Skills from "./components/Skills/Skills";
 import Project from "./components/Projects/Project";
 import Contact from "./components/About/Contact";
-
+import './App.css'
 function App() {
   return (
     <>
