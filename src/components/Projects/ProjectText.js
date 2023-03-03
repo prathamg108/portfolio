@@ -4,7 +4,8 @@ export const text = [
     topic: "iNoteBook",
     description: "MERN stack project help to maintain the notes ",
     language: "NodeJs   ReactJs",
-    github:"https://github.com/prathamg108/inotebook"
+    github:"https://github.com/prathamg108/inotebook",
+    effect:"fade-right"
   },
   {
     imgUrl:"https://raw.githubusercontent.com/prathamg108/photo_portfolio/main/news.avif",
@@ -12,6 +13,7 @@ export const text = [
     description: "Used to track the Daily News on website",
     language: "ReactJs",
     github: "https://github.com/prathamg108/dailydose",
+    effect:"fade-left"
   },
   {
     imgUrl: "https://github.com/prathamg108/photo_portfolio/blob/main/project_html.jpg?raw=true",
@@ -19,6 +21,7 @@ export const text = [
     description: "various animated Pages created using html n css ",
     language: "HTML   CSS",
     github: "https://github.com/prathamg108/Gym_Website",
+    effect:"fade-right"
   },
   {
     imgUrl: "https://github.com/prathamg108/photo_portfolio/blob/main/C++.png?raw=true",
@@ -26,5 +29,6 @@ export const text = [
     description: "C project that work as phone diary ",
     language: "C  DSA",
     github: "https://github.com/prathamg108/Phonebook",
+    effect:"fade-left"
   },
 ];

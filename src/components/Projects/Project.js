@@ -8,7 +8,7 @@ const Project = () => {
       <div className="project">
         {text.map((proj) => (
           <div className="card_main" key={proj.topic}>
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }} data-aos={proj.effect} >
               <div className="card-body">
                 <img
                   className="card-title"
