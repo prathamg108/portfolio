@@ -1,0 +1,64 @@
+.head-contact{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.head-contact-info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    background: rgb(49, 60, 60);
+}
+.form-contact{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 25rem;
+}
+.form-contact .contact{
+    height: 50px; 
+    font-size: 1.5rem;
+}
+.form-contact label{
+    font-size: 1.5rem;
+}
+.submit-button .submit{
+    font-size: 2rem;
+    color: #c5caba;
+    background: #d24646;
+    border-radius: 20px;
+}
+.submit-button .submit:hover{
+    color: #e7e9e1;
+    background-color: #a52727;
+}
+.footer-head{
+    font-size: 3.3rem;
+    text-align: center;
+}
+.fa-brands{
+    font-size: 2rem;
+    margin: 2px 17px;
+}
+.fa-brands:hover{
+    color: rgb(67 130 139);
+    background-color: #2e373e;
+}
+
+.fa-regular{
+    font-size: 2rem;
+    margin: 2px 17px;
+}
+.fa-regular:hover{
+    color: rgb(67 130 139);
+    background-color: #2e373e;
+}
+.logo-head{
+    text-align: center; 
+}
+.gmail{
+    font-size: 1rem;
+}

@@ -3,17 +3,22 @@
     margin: 2.5rem; 
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
 }
 .card-main{
     display: flex;
 }
 .card_main:nth-child(2n){
     position: relative;
-    left: 70%;
+    left: 60%;
     display: inline-block;
     margin-right: 6rem;
 }
 .card-title{
-    height: 2rem;
-    border-radius: 50%;
+    height: 5rem;
+    position: absolute;
+    right: 0px;
+    float: right;
+    top: -51px;
+    border-radius: 27%;
 }

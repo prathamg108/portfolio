@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Roadmap from "./components/Roadmap/Roadmap";
 import Skills from "./components/Skills/Skills";
 import Project from "./components/Projects/Project";
+import Contact from "./components/About/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Roadmap/>
     <Skills/>
     <Project/>
+    <Contact/>
     </>
   );
 }

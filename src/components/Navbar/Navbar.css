@@ -6,32 +6,32 @@ body{
   background-color: rgb(30, 27, 27);
 }
 
-.di1 {
+.di1_pratham {
   display: flex;
   justify-content: space-between;
 }
 
-.list-nav li {
+.list-nav_pratham li {
   padding: 5px 30px;
   text-decoration: none;
   list-style: none;
 }
 
-.list-active {
+.list-active_pratham {
   font-size: 40px;
 }
 
-.list2 {
+.list2_pratham {
   margin-top: 20px;
   display: inline-flex;
 }
 
-.list2 li a {
+.list2_pratham li a {
   padding-bottom: 0px;
   color: aliceblue;
 }
 
-.list2 li:hover {
+.list2_pratham li:hover {
   transform: translateY(-10px);
   font-size: 20px;
 }

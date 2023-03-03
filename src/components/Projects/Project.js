@@ -10,11 +10,13 @@ const Project = () => {
           <div className="card_main" key={proj.topic}>
             <div className="card" style={{ width: "18rem" }}>
               <div className="card-body">
-                <h5 className="card-title">{proj.imgUrl}</h5>
+                <img
+                  className="card-title"
+                  src={proj.imgUrl}
+                  alt="Photo of note"
+                />
                 <h6 className="card-subtitle mb-2 text-muted">{proj.topic}</h6>
-                <p className="card-text">
-                  {proj.description}
-                </p>
+                <p className="card-text">{proj.description}</p>
                 <a href="/" className="card-link">
                   {proj.language}
                 </a>
