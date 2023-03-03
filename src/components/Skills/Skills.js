@@ -5,13 +5,13 @@ import { skills } from "./language";
 const Skills = () => {
   return (
     <>
-      <div className="skillspage">
+      <div className="skillspage" >
         <div className="skill" >
           Skills
         </div>
         {skills.map((skill) => (
           <div className="containers" key={skill.Lname}>
-            <div className="sname">
+            <div className="sname" data-aos="fade-right">
               {skill.Lname}
               <Line
                 className="sline"

@@ -17,9 +17,9 @@ const Project = () => {
                 />
                 <h6 className="card-subtitle ">{proj.topic}</h6>
                 <p className="card-text">{proj.description}</p>
-                <a href="/" className="card-link">
+                <span  className="card-link">
                   {proj.language}
-                </a>
+                </span>
                 <a href={proj.github} rel="noreferrer" target="_blank" className="card-link">
                 <i className="fa-brands fa-github"></i>
                 </a>

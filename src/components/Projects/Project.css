@@ -34,3 +34,10 @@
 .card-subtitle {
     color: #1e96ff;
 }
+.card-text{
+    font-family: Tangerine;
+    font-size: 25px;
+}
+.card-link{
+    font-family: tilt-neon;
+}

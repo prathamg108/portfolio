@@ -2,7 +2,7 @@
     {
       Lname: "C/C++",
       level: 95,
-      id:1
+      id:1,
     },
     {
       Lname: "Problem Solving",

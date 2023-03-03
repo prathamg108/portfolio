@@ -1,5 +1,6 @@
 .head-contact{
     text-align: center;
+    font-family: 'Cinzel', serif;
 }
 .contact{
     text-align: center;
@@ -41,6 +42,7 @@
 .footer-head{
     font-size: 3.3rem;
     text-align: center;
+    font-family:Dancing script;
 }
 .fa-brands{
     font-size: 2rem;
