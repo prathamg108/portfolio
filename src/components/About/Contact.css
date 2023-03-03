@@ -13,6 +13,7 @@
 
 .footer{
     background: linear-gradient(45deg, #8e8b8b, #020045);
+    padding: 10px;
 }
 .form-contact{
     display: inline-flex;
@@ -47,7 +48,6 @@
 }
 .fa-brands:hover{
     color: rgb(67 130 139);
-    background-color: #2e373e;
 }
 
 .fa-regular{
@@ -56,7 +56,6 @@
 }
 .fa-regular:hover{
     color: rgb(67 130 139);
-    background-color: #2e373e;
 }
 .logo-head{
     text-align: center; 

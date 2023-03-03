@@ -38,7 +38,8 @@ const Contact = () => {
                 type="textarea"
                 name="description"
                 id="description"
-                placeholder="abc@gmail.com"
+                placeholder="Write a note"
+                rows="3"
               />
             </div>
           </div>
@@ -62,7 +63,16 @@ const Contact = () => {
             </a>
           </span>
           <span className="logo-">
-            <i className="fa-regular fa-envelope" alt="gmail" ><span className="gmail"> prathamg108@gmail.com</span></i>
+            <a
+              className="logo-picture"
+              rel="noreferrer"
+              href="https://instagram.com/p_r_a_t_h_a_m_108?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              <i className="fa-regular fa-envelope" alt="gmail">
+                <span className="gmail"></span>
+              </i>
+            </a>
           </span>
           <span className="logo-">
             <a
@@ -78,7 +88,7 @@ const Contact = () => {
             <a
               className="logo-picture"
               rel="noreferrer"
-              href="https://instagram.com/p_r_a_t_h_a_m_108?igshid=YmMyMTA2M2Y="
+              href="https://www.linkedin.com/in/pratham-gandhi-97b55921a/"
               target="_blank"
             >
               <i className="fa-brands fa-linkedin" alt="linkedin" />
