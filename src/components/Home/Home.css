@@ -9,11 +9,17 @@
     width: 50%;
 }
 .image{
-    margin-left: 80px;
+    margin-left: 10rem;
+    margin-top: 3rem;
 }
 .img{
     height: 20rem;
     border-radius: 50%;
+    transition: 0.5s;
+}
+.img:hover{
+    border-radius: 30%;
+    transform: scale(1.15);
 }
 .container{
     display: inline-flex;

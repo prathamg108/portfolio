@@ -1,6 +1,14 @@
 .containers{
     flex-wrap: wrap;
+    width: 95%;
 }
 .sname{
     margin: 2rem;
-}
+    font-size: 1.25rem;
+}  
+.skill{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family:'Genos', sans-serif;
+    ;
+} 

@@ -1,15 +1,23 @@
 .naming{
     font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .body{
     width:100%;
     font-size: 25px;;
+    font-family: 'Manjari', sans-serif;
 }
 
 .web{
     color: burlywood;
-    font-family: cursive;
+}
+.web:hover{
+    color: rgb(141, 173, 66);
 }
 .btech{
     color: rgb(88, 141, 212);
+}
+.btech:hover{
+    color: rgb(115, 102, 177);
 }

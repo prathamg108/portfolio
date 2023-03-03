@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <div className="skillspage">
-        <div className="skill" style={{ fontSize: "50px" }}>
+        <div className="skill" >
           Skills
         </div>
         {skills.map((skill) => (
@@ -16,8 +16,9 @@ const Skills = () => {
               <Line
                 className="sline"
                 percent={skill.level}
-                strokeWidth="1"
-                strokecolor="rgb(212, 222, 222)"
+                strokeWidth="1.5"
+                trailWidth="1.5"
+                strokeColor="#0866a1"
               />
             </div>
           </div>

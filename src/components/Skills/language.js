@@ -15,19 +15,24 @@
       id:3
     },
     {
-      Lname: "Javascript",
-      level: 85,
-      id:4
-    },
-    {
       Lname: "NodeJs/ExpressJs",
       level: 80,
        id:5
     },
     {
+      Lname: "Javascript",
+      level: 85,
+      id:4
+    },
+    {
       Lname: "MongoDB",
-      level: 70,
+      level: 85,
        id:6
+    },
+    {
+      Lname: "SCSS/HTML",
+      level: 90,
+      id:7
     }
   ];
 

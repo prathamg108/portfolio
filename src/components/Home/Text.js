@@ -3,7 +3,7 @@ import "./Text.css";
 export const Text = () => {
   return (
     <>
-      <div style={{ fontSize: "40px" }}>Hii Guys,</div>
+      <div style={{ fontSize: "40px" ,fontFamily:"Dancing Script"}}>Hii Guys,</div>
       <div className="naming">I'm Pratham Gandhi </div>
       <div className="body">
         I am <span className="web">Full Stack Web Developer</span>, Currently an
