@@ -5,7 +5,7 @@
 .contact{
     text-align: center;
     color: #2e373e;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Genos;
 }
 .head-contact-info{
     margin-top: 40px;
@@ -21,6 +21,10 @@
     flex-direction: column;
     margin: 20px;
     width: 25rem;
+    font-family: Cinzel;
+}
+.form-contact label{
+    font-family: Cinzel;
 }
 .form-contact .contact{
     height: 50px; 
@@ -32,8 +36,10 @@
 .submit-button .submit{
     font-size: 2rem;
     color: #c5caba;
+    width: 20%;
     background: #d24646;
     border-radius: 20px;
+    font-family: Great Vibes;
 }
 .submit-button .submit:hover{
     color: #e7e9e1;

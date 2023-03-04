@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css';
 import {Text} from "./Text";
-import photo from './trainer3.jpg';
+import photo from './Portfolio-photo.jpg';
 
 const Home = () => {
   return (

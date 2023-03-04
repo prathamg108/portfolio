@@ -14,10 +14,11 @@
 .img{
     height: 15rem;
     margin-top: 3rem;
-    border-radius: 50%;
+    border-radius: 55%;
     transition: 0.5s;
     filter: grayscale(100%);
     animation: image_spring infinite 4s 0ms ;
+    box-shadow: 10px;
 }
 @keyframes image_spring {
     0%{
