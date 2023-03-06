@@ -56,7 +56,7 @@ const Contact = () => {
             <a
               className="logo-picture"
               rel="noreferrer"
-              href="https://instagram.com/p_r_a_t_h_a_m_108?igshid=YmMyMTA2M2Y="
+              href="https://www.facebook.com/pratham.gandhi.566"
               target="_blank"
             >
               <i className="fa-brands fa-facebook" alt="facebook" />

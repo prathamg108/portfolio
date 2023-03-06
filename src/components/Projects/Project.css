@@ -1,43 +1,63 @@
-.pro{
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'FontAwesome';
+.pro {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "FontAwesome";
 }
-.card{
-    border: 1px solid wheat;
-    margin: 2.5rem; 
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
+.card {
+  border: 1px solid wheat;
+  margin: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
 }
-.card-main{
-    display: flex;
+.card-main {
+  display: flex;
 }
-.card_main:nth-child(2n){
-    position: relative;
-    left: 60%;
-    display: inline-block;
-    margin-right: 6rem;
-    margin-left: 2rem;
+.card_main:nth-child(2n) {
+  position: relative;
+  left: 60%;
+  display: inline-block;
+  margin-right: 6rem;
+  margin-left: 2rem;
 }
-.card-title{
-    height: 5rem;
-    position: absolute;
-    right: 0px;
-    float: right;
-    top: -51px;
-    border-radius: 27%;
+.card-title {
+  height: 5rem;
+  position: absolute;
+  right: 0px;
+  float: right;
+  top: -51px;
+  border-radius: 27%;
 }
-.card-body{
-    background: linear-gradient(45deg, #951c1c, #1d189c);
+.card-body {
+  background: linear-gradient(45deg, #951c1c, #1d189c);
 }
 .card-subtitle {
-    color: #1e96ff;
+  color: #1e96ff;
 }
-.card-text{
-    font-family: Tangerine;
-    font-size: 25px;
+.card-text {
+  font-family: Tangerine;
+  font-size: 25px;
 }
-.card-link{
-    font-family: tilt-neon;
+.card-link {
+  font-family: tilt-neon;
+}
+
+@media only screen and (max-width: 1120px) {
+  .card_main:nth-child(2n) {
+    left: 45%;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+    .card_main:nth-child(2n) {
+    left: 20px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .card_main:nth-child(2n) {
+    left: 0px;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    }
 }

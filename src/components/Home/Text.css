@@ -2,6 +2,9 @@
     font-size: 50px;
     font-family: 'Tangerine', cursive;
     font-family: Nosifer;
+    opacity: 0;
+    animation: slideBottom 1s forwards;
+    animation-delay: 0.5s;
 }
 .body{
     width:100%;
@@ -23,3 +26,13 @@
 .btech:hover{
     color: rgb(115, 102, 177);
 }
+@keyframes slideBottom {
+    0%{
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

@@ -38,7 +38,23 @@
 }
 .container{
     display: inline-flex;
-    /* flex-direction: column; */
 }
+
+@media only screen and (max-width: 790px) {
+    .container{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .image{
+        margin-left: 3rem;
+    }
+    .text{
+        width: 100%;
+    }
+    .img{
+        height: 10rem;
+    }
+}
+
 
 
