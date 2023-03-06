@@ -59,5 +59,9 @@
     left: 0px;
     margin-right: 0rem;
     margin-left: 0rem;
+    width:10rem
+    }
+    .card{
+        width: 14rem;
     }
 }
