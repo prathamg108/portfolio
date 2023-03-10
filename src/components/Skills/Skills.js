@@ -5,25 +5,25 @@ import { skills } from "./language";
 const Skills = () => {
   return (
     <>
-      <div className="skillspage" >
-        <div className="skill" >
-          Skills
-        </div>
-        {skills.map((skill) => (
-          <div className="containers" key={skill.Lname}>
-            <div className="sname" data-aos="fade-right">
-              {skill.Lname}
-              <Line
-                className="sline"
-                percent={skill.level}
-                strokeWidth="1.5"
-                trailWidth="1.5"
-                strokeColor="#0866a1"
-              />
+      <section id="skills_main_head">
+        <div className="skillspage">
+          <div className="skill">Skills</div>
+          {skills.map((skill) => (
+            <div className="containers" key={skill.Lname}>
+              <div className="sname" data-aos="fade-right">
+                {skill.Lname}
+                <Line
+                  className="sline"
+                  percent={skill.level}
+                  strokeWidth="1.5"
+                  trailWidth="1.5"
+                  strokeColor="#0866a1"
+                />
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 };
