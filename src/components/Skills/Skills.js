@@ -17,7 +17,7 @@ const Skills = () => {
                   percent={skill.level}
                   strokeWidth="1.5"
                   trailWidth="1.5"
-                  strokeColor="#0866a1"
+                  strokeColor="#386C6C"
                 />
               </div>
             </div>
